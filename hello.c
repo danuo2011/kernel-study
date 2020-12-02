@@ -1,6 +1,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
-MODULE_LICENSE('Dual BSD/GSL');
+
+MODULE_LICENSE("Dual BSD/GSL");
 
 static int hello_init(void)
 {
